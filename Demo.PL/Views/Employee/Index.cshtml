@@ -1,0 +1,112 @@
+﻿@model IEnumerable<Demo.BLL.Models.EmployeeVM>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<style>
+    th {
+        text-align: center;
+    }
+</style>
+<h1>Welcome to Employee</h1>
+
+<a asp-action="Create" asp-controller="Employee" class="btn btn-primary">Create New Employee</a>
+
+<br />
+<br />
+<form asp-action="Index" asp-controller="Employee">
+    <div class="row">
+
+        <div class="col-lg-10">
+            <input class="form-control" type="tel" placeholder="Search By Employee Name" name="SearchValue" />
+        </div>
+        <div class="col-lg-2">
+            <input type="submit" class="btn btn-success" value="Search" />
+        </div>
+    </div>
+</form>
+
+<br />
+<br />
+
+
+<div class="container-fluid">
+    <div class="row clearfix">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="card">
+                <div class="header">
+                    <h2>Welcome To Employee</h2>
+                    <ul class="header-dropdown m-r--5">
+                        <li class="dropdown">
+                            <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                                <i class="material-icons">more_vert</i>
+                            </a>
+                            <ul class="dropdown-menu pull-right">
+                                <li><a href="javascript:void(0);">Action</a></li>
+                                <li><a href="javascript:void(0);">Another action</a></li>
+                                <li><a href="javascript:void(0);">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="body">
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped table-hover js-basic-example dataTable text-center font-weight-bold">
+                            <thead>
+                                <tr class="thead-dark">
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Hire Date</th>
+                                    <th>Department</th>
+                                    <th>Details</th>
+                                    <th>Edit</th>
+                                    <th>Delete</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.Name</td>
+                                        <td>@item.Email</td>
+                                        <td>@item.HireDate.ToShortDateString()</td>
+                                        <td>@item.Department.DepartmentName</td>
+
+                                        <td><a asp-route-id="@item.Id" asp-action="Details" asp-controller="Employee" class="btn btn-success">Details</a></td>
+
+                                        <td><a asp-route-id="@item.Id" asp-action="Edit" asp-controller="Employee" class="btn btn-info">Edit</a></td>
+
+                                        <td><a asp-route-id="@item.Id" asp-action="Delete" asp-controller="Employee" class="btn btn-danger">Delete</a></td>
+
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section MyDateTable
+    {
+    <script>
+        $(function () {
+            $('.js-basic-example').DataTable({
+                responsive: true,
+                paging: true,
+                pageLength: 5,
+                bSort: true,
+                bFilter: true,
+                bLengthChange: true,
+                bInfo: true,
+                lengthMenu: [[5, 10, 25, 50, -1], [5, 10, 25, 50, "All"]],
+
+            });
+        });
+    </script>
+}

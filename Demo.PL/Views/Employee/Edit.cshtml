@@ -1,0 +1,93 @@
+﻿@model Demo.BLL.Models.EmployeeVM
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h2>Edit Employee</h2>
+<br />
+<a asp-action="Index" asp-controller="Employee" class="btn btn-success">Back To Employee</a>
+
+
+<br />
+
+
+<form asp-action="Edit" asp-controller="Employee" class="form-group">
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <input type="hidden" asp-for="Id" class="form-control" />
+
+    <br />
+
+    <label>Employee Name</label>
+    <input type="text" asp-for="Name" class="form-control" />
+    <span asp-validation-for="Name" class="text-danger"></span>
+    <br />
+    <label>Employee Salary</label>
+    <input type="number" asp-for="Salary" class="form-control" />
+    <span asp-validation-for="Salary" class="text-danger"></span>
+    <br />
+
+    <label>Employee Email</label>
+    <input type="Email" asp-for="Email" class="form-control" />
+    <span asp-validation-for="Email" class="text-danger"></span>
+    <br />
+
+    <label>Employee Address</label>
+    <input type="text" asp-for="Address" class="form-control" />
+    <span asp-validation-for="Address" class="text-danger"></span>
+
+    <br />
+
+    <label>Employee HireDate</label>
+    <input type="date" asp-for="HireDate" class="form-control" />
+    <span asp-validation-for="HireDate" class="text-danger"></span>
+
+    <br />
+
+    <label>Employee Notes</label>
+    <textarea asp-for="Notes" class="form-control"></textarea>
+    <span asp-validation-for="Notes" class="text-danger"></span>
+
+
+
+    <label>Is Active</label>
+    <div class="demo-checkbox">
+        <input type="checkbox" asp-for="IsActive">
+        <label asp-for="IsActive">IsActive</label>
+        <span asp-validation-for="IsActive" class="text-danger"></span>
+
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+    <label>Department</label>
+    <select asp-for="DepartmentId" class="form-control" asp-items="(SelectList)ViewBag.DepartmentList">
+        <option>
+            Choose Department
+        </option>
+    </select>
+    <span asp-validation-for="DepartmentId" class="text-danger"></span>
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <center>
+        <input type="submit" value="Edit" class="btn btn-primary" />
+        <a  asp-action="Index" asp-controller="Employee" class="btn btn-danger">Cancel</a>
+    </center>
+</form>
+
+
+@section MicrosoftValidation
+{
+<script src="~/plugins/jquery-validation/jquery.validate.js"></script>
+<script src="~/plugins/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

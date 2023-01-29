@@ -1,0 +1,32 @@
+﻿@model Demo.BLL.Models.MailVM
+@{
+    ViewData["Title"] = "CreateMail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="alert alert-success alert-dismissible">
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong>@TempData["Msg"]</strong>
+</div>
+
+
+<form asp-action="CreateMail" asp-controller="Mail" class="form-group">
+
+    <label asp-for="Titel">Title</label>
+    <input type="text" asp-for="Titel" class="form-control" />
+    <br />
+
+    <label asp-for="Message">Message</label>
+    <textarea asp-for="Message" rows="4" class="form-control"></textarea>
+    <br />
+
+    <center>
+        <input type="submit" value="Send" class="btn btn-primary" />
+        <input type="reset" value="Cancle" class="btn btn-danger" />
+    </center>
+
+</form>
+
+
+

@@ -1,0 +1,65 @@
+﻿@model Demo.BLL.Models.EmployeeVM
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Employee Details</h2>
+
+
+<form asp-action="Create" asp-controller="Employee" class="form-group">
+
+    <img src="~/Files/Imgs/@Model.PhotoUrl" width="100" height="100" />
+    <br />
+    <br />
+    <a class="btn btn-success" href="~/Files/Docs/@Model.CvUrl" Download="Download">Download CV</a>
+    <br />
+    <br />
+    <label>Employee Id</label>
+    <input disabled type="text" asp-for="Id" class="form-control" />
+    <br />
+
+    <label>Employee Name</label>
+    <input disabled type="text" asp-for="Name" class="form-control" />
+    <br />
+    <label>Employee Salary</label>
+    <input disabled type="text" asp-for="Salary" class="form-control" />
+    <br />
+
+    <label>Employee Email</label>
+    <input disabled type="text" asp-for="Email" class="form-control" />
+    <br />
+
+    <label>Employee Address</label>
+    <input disabled type="text" asp-for="Address" class="form-control" />
+    <br />
+
+    <label>Employee HireDate</label>
+    <input disabled type="text" asp-for="HireDate" class="form-control" />
+    <br />
+
+    <label>Employee Notes</label>
+    <textarea disabled asp-for="Notes" class="form-control"></textarea>
+
+
+    <label>Is Active</label>
+    <div class="demo-checkbox">
+        <input type="checkbox" asp-for="IsActive" disabled>
+        <label asp-for="IsActive">IsActive</label>
+        <span asp-validation-for="IsActive" class="text-danger"></span>
+    </div>
+    <br />
+
+    <label>Department </label>
+    <input type="text" disabled asp-for="Department.DepartmentName" class="form-control" />
+    <br />
+
+    <center>
+        <a asp-route-id="@Model.Id" asp-action="Edit" asp-controller="Employee" class="btn btn-primary">Edit</a>
+        <a asp-route-id="@Model.Id" asp-action="Delete" asp-controller="Employee" class="btn btn-danger">Delete</a>
+        <a asp-action="Index" asp-controller="Employee" class="btn btn-success">Back To Employee</a>
+
+
+    </center>
+</form>
