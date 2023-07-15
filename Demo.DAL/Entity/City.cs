@@ -11,6 +11,7 @@ namespace Demo.DAL.Entity
     [Table("City")]
     public class City
     {
+        //HashSet تكرار
         public City()
         {
             District = new HashSet<District>();

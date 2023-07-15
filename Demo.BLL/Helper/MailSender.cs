@@ -18,9 +18,8 @@ namespace Demo.BLL.Helper
                 using (var smtp = new SmtpClient("smtp.gmail.com", 587))
                 {
                     smtp.EnableSsl = true;
-                    smtp.Credentials = new NetworkCredential("mostafaesam.farhat@gmail.com", "mostafatefa10halwsa10&&mostafamtefa11halwsa10");
+                    smtp.Credentials = new NetworkCredential("mostafaesam.farhat@gmail.com", "********");
                     smtp.Send("mostafaesam.farhat@gmail.com", "mtefa2777@gmail.com", model.Titel, model.Message);
-
 
                 }
 

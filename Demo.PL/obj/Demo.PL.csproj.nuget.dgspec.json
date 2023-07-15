@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\project\\Demo\\Demo.PL\\Demo.PL.csproj": {}
+    "F:\\project .Net\\GitHub Project\\Demo\\Demo.PL\\Demo.PL.csproj": {}
   },
   "projects": {
-    "D:\\project\\Demo\\Demo.BLL\\Demo.BLL.csproj": {
+    "F:\\project .Net\\GitHub Project\\Demo\\Demo.BLL\\Demo.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\project\\Demo\\Demo.BLL\\Demo.BLL.csproj",
+        "projectUniqueName": "F:\\project .Net\\GitHub Project\\Demo\\Demo.BLL\\Demo.BLL.csproj",
         "projectName": "Demo.BLL",
-        "projectPath": "D:\\project\\Demo\\Demo.BLL\\Demo.BLL.csproj",
+        "projectPath": "F:\\project .Net\\GitHub Project\\Demo\\Demo.BLL\\Demo.BLL.csproj",
         "packagesPath": "C:\\Users\\ALMASA\\.nuget\\packages\\",
-        "outputPath": "D:\\project\\Demo\\Demo.BLL\\obj\\",
+        "outputPath": "F:\\project .Net\\GitHub Project\\Demo\\Demo.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ALMASA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\project\\Demo\\Demo.DAL\\Demo.DAL.csproj": {
-                "projectPath": "D:\\project\\Demo\\Demo.DAL\\Demo.DAL.csproj"
+              "F:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\Demo.DAL.csproj": {
+                "projectPath": "F:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\Demo.DAL.csproj"
               }
             }
           }
@@ -77,14 +77,14 @@
         }
       }
     },
-    "D:\\project\\Demo\\Demo.DAL\\Demo.DAL.csproj": {
+    "F:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\Demo.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\project\\Demo\\Demo.DAL\\Demo.DAL.csproj",
+        "projectUniqueName": "F:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\Demo.DAL.csproj",
         "projectName": "Demo.DAL",
-        "projectPath": "D:\\project\\Demo\\Demo.DAL\\Demo.DAL.csproj",
+        "projectPath": "F:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\Demo.DAL.csproj",
         "packagesPath": "C:\\Users\\ALMASA\\.nuget\\packages\\",
-        "outputPath": "D:\\project\\Demo\\Demo.DAL\\obj\\",
+        "outputPath": "F:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ALMASA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -113,19 +113,23 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[6.0.15, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[6.0.15, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[6.0.15, )"
             }
           },
           "imports": [
@@ -148,14 +152,14 @@
         }
       }
     },
-    "D:\\project\\Demo\\Demo.PL\\Demo.PL.csproj": {
+    "F:\\project .Net\\GitHub Project\\Demo\\Demo.PL\\Demo.PL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\project\\Demo\\Demo.PL\\Demo.PL.csproj",
+        "projectUniqueName": "F:\\project .Net\\GitHub Project\\Demo\\Demo.PL\\Demo.PL.csproj",
         "projectName": "Demo.PL",
-        "projectPath": "D:\\project\\Demo\\Demo.PL\\Demo.PL.csproj",
+        "projectPath": "F:\\project .Net\\GitHub Project\\Demo\\Demo.PL\\Demo.PL.csproj",
         "packagesPath": "C:\\Users\\ALMASA\\.nuget\\packages\\",
-        "outputPath": "D:\\project\\Demo\\Demo.PL\\obj\\",
+        "outputPath": "F:\\project .Net\\GitHub Project\\Demo\\Demo.PL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ALMASA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -172,8 +176,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\project\\Demo\\Demo.BLL\\Demo.BLL.csproj": {
-                "projectPath": "D:\\project\\Demo\\Demo.BLL\\Demo.BLL.csproj"
+              "F:\\project .Net\\GitHub Project\\Demo\\Demo.BLL\\Demo.BLL.csproj": {
+                "projectPath": "F:\\project .Net\\GitHub Project\\Demo\\Demo.BLL\\Demo.BLL.csproj"
               }
             }
           }
@@ -204,11 +208,11 @@
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[7.0.2, )"
+              "version": "[6.0.15, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.11, )"
+              "version": "[6.0.14, )"
             }
           },
           "imports": [

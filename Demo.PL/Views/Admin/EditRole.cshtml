@@ -1,0 +1,73 @@
+﻿@model Demo.BLL.Models.EditRoleVM
+@{
+    ViewData["Title"] = "EditRole";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>EditRole</h1>
+
+
+<!DOCTYPE html>
+<html>
+
+
+<body class="signup-page">
+    <div class="signup-box">
+        <a class="btn btn-primary" asp-controller="Admin" asp-action="Index">Back to Roles</a>
+        <br />
+        <br />
+
+        <div class="card">
+            <div class="body">
+                <form asp-action="EditRole" asp-controller="Admin" method="POST">
+                    <div class="msg">Edit Role</div>
+
+                    <div class="text-danger" asp-validation-summary="All"></div>
+
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="material-icons">lock</i>
+                        </span>
+                        <div class="form-line">
+                            <input asp-for="Id" type="text" readonly class="form-control">
+                        </div>
+                        <div>
+                            <span asp-validation-for="Id" class="text-danger"></span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="material-icons">lock</i>
+                        </span>
+                        <div class="form-line">
+                            <input asp-for="RoleName" type="text" class="form-control" placeholder="Enter Role">
+                        </div>
+                        <div>
+                            <span asp-validation-for="RoleName" class="text-danger"></span>
+                        </div>
+
+                    </div>
+
+                    <button class="btn btn-block btn-lg bg-pink waves-effect" type="submit">Edit</button>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery Core Js -->
+    <script src="~/plugins/jquery/jquery.min.js"></script>
+
+    <!-- Validation Plugin Js -->
+    <script src="~/plugins/jquery-validation/jquery.validate.js"></script>
+
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+</body>
+
+</html>
+

@@ -1,4 +1,5 @@
 ﻿using Demo.DAL.Entity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -9,13 +10,10 @@ using System.Threading.Tasks;
 
 namespace Demo.DAL.Database
 {
-    public class ProjectDbContext : DbContext
+    public class ProjectDbContext : IdentityDbContext
     {
-        public ProjectDbContext(DbContextOptions<ProjectDbContext> options) : base(options)
-        {
 
-        }
-
+        public ProjectDbContext(DbContextOptions<ProjectDbContext> options) : base(options) { }
 
         public DbSet<Department> Department { get; set; }
         public DbSet<Employee> Employee { get; set; }
@@ -24,6 +22,7 @@ namespace Demo.DAL.Database
         public DbSet<District> District { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<City>()
                         .HasOne<Country>(s => s.Country)
                         .WithMany(g => g.City)

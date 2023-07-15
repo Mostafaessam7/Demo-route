@@ -3,6 +3,8 @@
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
+    var Culture = System.Threading.Thread.CurrentThread.CurrentCulture.Name;
+
 }
 
 
@@ -11,9 +13,28 @@
         text-align: center;
     }
 </style>
-<h1>Welcome to Employee</h1>
 
-<a asp-action="Create" asp-controller="Employee" class="btn btn-primary">Create New Employee</a>
+
+@if (Culture == "ar-EG")
+{
+    <h3 style="text-align:right">
+        <a asp-controller="Employee" asp-action="Index" asp-route-culture="en-US">@SharedLocalizer["English"]</a>
+    </h3>
+}
+
+@if (Culture == "en-US")
+{
+    <h3 style="text-align:right">
+        <a asp-controller="Employee" asp-action="Index" asp-route-culture="ar-EG">@SharedLocalizer["Arabic"]</a>
+    </h3>
+}
+
+
+
+<br />
+<h1>@SharedLocalizer["WelcometoEmployee"]</h1>
+
+<a asp-action="Create" asp-controller="Employee" class="btn btn-primary">@SharedLocalizer["CreateNewEmployee"]</a>
 
 <br />
 <br />
@@ -38,7 +59,7 @@
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="card">
                 <div class="header">
-                    <h2>Welcome To Employee</h2>
+                    <h2>@SharedLocalizer["WelcometoEmployee"]</h2>
                     <ul class="header-dropdown m-r--5">
                         <li class="dropdown">
                             <a href="javascript:void(0);" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
@@ -57,13 +78,13 @@
                         <table class="table table-bordered table-striped table-hover js-basic-example dataTable text-center font-weight-bold">
                             <thead>
                                 <tr class="thead-dark">
-                                    <th>Name</th>
-                                    <th>Email</th>
-                                    <th>Hire Date</th>
-                                    <th>Department</th>
-                                    <th>Details</th>
-                                    <th>Edit</th>
-                                    <th>Delete</th>
+                                    <th>@SharedLocalizer["Name"]</th>
+                                    <th>@SharedLocalizer["Email"]</th>
+                                    <th>@SharedLocalizer["HireDate"]</th>
+                                    <th>@SharedLocalizer["Department"]</th>
+                                    <th>@SharedLocalizer["Details"]</th>
+                                    <th>@SharedLocalizer["Edit"]</th>
+                                    <th>@SharedLocalizer["Delete"]</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -75,11 +96,11 @@
                                         <td>@item.HireDate.ToShortDateString()</td>
                                         <td>@item.Department.DepartmentName</td>
 
-                                        <td><a asp-route-id="@item.Id" asp-action="Details" asp-controller="Employee" class="btn btn-success">Details</a></td>
+                                        <td><a asp-route-id="@item.Id" asp-action="Details" asp-controller="Employee" class="btn btn-success">@SharedLocalizer["Details"]</a></td>
 
-                                        <td><a asp-route-id="@item.Id" asp-action="Edit" asp-controller="Employee" class="btn btn-info">Edit</a></td>
+                                        <td><a asp-route-id="@item.Id" asp-action="Edit" asp-controller="Employee" class="btn btn-info">@SharedLocalizer["Edit"]</a></td>
 
-                                        <td><a asp-route-id="@item.Id" asp-action="Delete" asp-controller="Employee" class="btn btn-danger">Delete</a></td>
+                                        <td><a asp-route-id="@item.Id" asp-action="Delete" asp-controller="Employee" class="btn btn-danger">@SharedLocalizer["Delete"]</a></td>
 
                                     </tr>
                                 }

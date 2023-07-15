@@ -1,0 +1,59 @@
+﻿@model Demo.BLL.Models.DeleteRoleVM
+
+@{
+    ViewData["Title"] = "DeleteRole";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>DeleteRole</h1>
+
+<!DOCTYPE html>
+<html>
+
+
+<body class="signup-page">
+    <div class="signup-box">
+        <a class="btn btn-primary" asp-controller="Admin" asp-action="Index">Back to Roles</a>
+        <br />
+        <br />
+
+        <div class="card">
+            <div class="body">
+                <form asp-action="DeleteRole" asp-controller="Admin" method="POST">
+                    <div class="msg">Delete Role</div>
+
+
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="material-icons">lock</i>
+                        </span>
+                        <div class="form-line">
+                            <input asp-for="Id" type="text" readonly class="form-control">
+                        </div>
+                  
+
+                    </div>
+
+
+                    <div class="input-group">
+                        <span class="input-group-addon">
+                            <i class="material-icons">lock</i>
+                        </span>
+                        <div class="form-line">
+                            <input asp-for="RoleName" type="text" readonly class="form-control">
+                        </div>
+             
+                    </div>
+
+                    <button class="btn btn-block btn-lg bg-pink waves-effect" type="submit">Delete</button>
+
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+

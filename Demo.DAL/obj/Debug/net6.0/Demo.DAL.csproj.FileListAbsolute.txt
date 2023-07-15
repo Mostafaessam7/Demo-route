@@ -12,3 +12,31 @@ D:\project\Demo\Demo.DAL\obj\Debug\net6.0\refint\Demo.DAL.dll
 D:\project\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.pdb
 D:\project\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.genruntimeconfig.cache
 D:\project\Demo\Demo.DAL\obj\Debug\net6.0\ref\Demo.DAL.dll
+F:\project .Net\Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.deps.json
+F:\project .Net\Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.runtimeconfig.json
+F:\project .Net\Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.dll
+F:\project .Net\Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.pdb
+F:\project .Net\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.csproj.AssemblyReference.cache
+F:\project .Net\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\project .Net\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.AssemblyInfoInputs.cache
+F:\project .Net\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.AssemblyInfo.cs
+F:\project .Net\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.csproj.CoreCompileInputs.cache
+F:\project .Net\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.dll
+F:\project .Net\Demo\Demo.DAL\obj\Debug\net6.0\refint\Demo.DAL.dll
+F:\project .Net\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.pdb
+F:\project .Net\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.genruntimeconfig.cache
+F:\project .Net\Demo\Demo.DAL\obj\Debug\net6.0\ref\Demo.DAL.dll
+F:\project .Net\GitHub Project\Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.deps.json
+F:\project .Net\GitHub Project\Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.runtimeconfig.json
+F:\project .Net\GitHub Project\Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.dll
+F:\project .Net\GitHub Project\Demo\Demo.DAL\bin\Debug\net6.0\Demo.DAL.pdb
+F:\project .Net\GitHub Project\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.csproj.AssemblyReference.cache
+F:\project .Net\GitHub Project\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\project .Net\GitHub Project\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.AssemblyInfoInputs.cache
+F:\project .Net\GitHub Project\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.AssemblyInfo.cs
+F:\project .Net\GitHub Project\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.csproj.CoreCompileInputs.cache
+F:\project .Net\GitHub Project\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.dll
+F:\project .Net\GitHub Project\Demo\Demo.DAL\obj\Debug\net6.0\refint\Demo.DAL.dll
+F:\project .Net\GitHub Project\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.pdb
+F:\project .Net\GitHub Project\Demo\Demo.DAL\obj\Debug\net6.0\Demo.DAL.genruntimeconfig.cache
+F:\project .Net\GitHub Project\Demo\Demo.DAL\obj\Debug\net6.0\ref\Demo.DAL.dll

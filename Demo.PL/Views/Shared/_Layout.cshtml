@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity;
+
+@inject SignInManager<IdentityUser> signInManager
+
+
+<!DOCTYPE html>
 
 <html>
 <head>
@@ -285,8 +290,12 @@
                     <img src="~/images/user.png" width="48" height="48" alt="User" />
                 </div>
                 <div class="info-container">
-                    <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">John Doe</div>
-                    <div class="email">john.doe@example.com</div>
+                    <div class="name" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Welcome</div>
+                    @if (signInManager.IsSignedIn(User))
+                    {
+                        <div class="email">@User.Identity.Name</div>
+
+                    }
                     <div class="btn-group user-helper-dropdown">
                         <i class="material-icons" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">keyboard_arrow_down</i>
                         <ul class="dropdown-menu pull-right">
@@ -296,7 +305,17 @@
                             <li><a href="javascript:void(0);"><i class="material-icons">shopping_cart</i>Sales</a></li>
                             <li><a href="javascript:void(0);"><i class="material-icons">favorite</i>Likes</a></li>
                             <li role="seperator" class="divider"></li>
-                            <li><a href="javascript:void(0);"><i class="material-icons">input</i>Sign Out</a></li>
+                            <li>
+                                @*<a href="javascript:void(0);">
+                                <i class="material-icons">input</i>
+                                Sign Out
+                                </a>*@
+
+                                <form asp-action="LogOut" asp-controller="Account" method="post">
+                                    <i class="material-icons">input</i>
+                                    <input class="btn btn-primary" type="submit" value="Sign Out" style="width:auto;color:white" />
+                                </form>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -316,7 +335,7 @@
                     </li>
 
                     <li>
-                        <a asp-action="Create" asp-controller="Department" >
+                        <a asp-action="Create" asp-controller="Department">
                             <i class="material-icons">layers</i>
                             <span>Create Department</span>
                         </a>
@@ -341,39 +360,39 @@
                         </ul>
                     </li>
 
- @*                   <li>
-                        <a href="javascript:void(0);" class="menu-toggle">
-                            <i class="material-icons">event_note</i>
-                            <span>Inventory</span>
-                        </a>
-                        <ul class="ml-menu">
-                            <li>
-                                <a asp-controller="Stors" asp-action="Index" asp-area="Inventory">
-                                    <i class="material-icons">
-                                        card_membership
-                                    </i>
-                                    <span>Inventory card</span>
-                                </a>
-                            </li>
-                        </ul>
+                    @*                   <li>
+                    <a href="javascript:void(0);" class="menu-toggle">
+                    <i class="material-icons">event_note</i>
+                    <span>Inventory</span>
+                    </a>
+                    <ul class="ml-menu">
+                    <li>
+                    <a asp-controller="Stors" asp-action="Index" asp-area="Inventory">
+                    <i class="material-icons">
+                    card_membership
+                    </i>
+                    <span>Inventory card</span>
+                    </a>
+                    </li>
+                    </ul>
                     </li>
                     <li>
-                        <a href="javascript:void(0);" class="menu-toggle">
-                            <i class="material-icons">shopping_cart</i>
-                            <span>Purchases</span>
-                        </a>
-                        <ul class="ml-menu">
-                            <li>
-                                <a asp-controller="Bills" asp-action="Index" asp-area="Purchases">
-                                    <i class="material-icons">
-                                        card_membership
-                                    </i>
-                                    <span>Purchases card</span>
-                                </a>
-                            </li>
-                        </ul>
+                    <a href="javascript:void(0);" class="menu-toggle">
+                    <i class="material-icons">shopping_cart</i>
+                    <span>Purchases</span>
+                    </a>
+                    <ul class="ml-menu">
+                    <li>
+                    <a asp-controller="Bills" asp-action="Index" asp-area="Purchases">
+                    <i class="material-icons">
+                    card_membership
+                    </i>
+                    <span>Purchases card</span>
+                    </a>
                     </li>
-*@
+                    </ul>
+                    </li>
+                    *@
 
                     <li>
                         <a href="javascript:void(0);" class="menu-toggle">
@@ -382,15 +401,26 @@
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a asp-controller="Mail" asp-action="CreateMail" >Inbox</a>
+                                <a asp-controller="Mail" asp-action="CreateMail">Inbox</a>
                             </li>
                             <li>
-                                <a asp-controller="Mail" asp-action="CreateMail" >Send</a>
+                                <a asp-controller="Mail" asp-action="CreateMail">Send</a>
                             </li>
                         </ul>
                     </li>
 
+                    <li>
+                        <a href="javascript:void(0);" class="menu-toggle">
+                            <i class="material-icons">fingerprint</i>
+                            <span>Roles</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a asp-controller="Admin" asp-action="Index">Role Card</a>
+                            </li>
 
+                        </ul>
+                    </li>
 
 
 
@@ -612,8 +642,8 @@
 
     <!-- Custom Js -->
     <script src="~/js/admin.js"></script>
-@*    <script src="~/js/pages/index.js"></script>
-*@
+    @*    <script src="~/js/pages/index.js"></script>
+    *@
     <!-- Demo Js -->
     <script src="~/js/demo.js"></script>
 

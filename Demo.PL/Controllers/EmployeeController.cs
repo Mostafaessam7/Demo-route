@@ -85,14 +85,12 @@ namespace Demo.PL.Controllers
                 if (ModelState.IsValid)
                 {
 
-
                     string CvUrl = FileUploader.UploadFile("Files/Docs", model.Cv);
                     string ImageUrl = FileUploader.UploadFile("Files/Imgs", model.Photo);
 
                     var data = mapper.Map<Employee>(model);
                     data.CvUrl = CvUrl;
                     data.PhotoUrl = ImageUrl;
-
 
                     employee.Create(data);
                     return RedirectToAction("Index");

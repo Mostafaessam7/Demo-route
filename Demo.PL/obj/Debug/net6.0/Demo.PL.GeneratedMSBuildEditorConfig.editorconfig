@@ -9,89 +9,129 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Demo.PL
 build_property.RootNamespace = Demo.PL
-build_property.ProjectDir = D:\project\Demo\Demo.PL\
+build_property.ProjectDir = F:\project .Net\GitHub Project\Demo\Demo.PL\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\project\Demo\Demo.PL
+build_property.MSBuildProjectDirectory = F:\project .Net\GitHub Project\Demo\Demo.PL
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/project/Demo/Demo.PL/Areas/Inventory/Views/Stors/Index.cshtml]
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Areas/Inventory/Views/Stors/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSW52ZW50b3J5XFZpZXdzXFN0b3JzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/Demo/Demo.PL/Areas/Purchases/Views/Bills/Index.cshtml]
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Areas/Purchases/Views/Bills/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUHVyY2hhc2VzXFZpZXdzXEJpbGxzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/Demo/Demo.PL/Views/Department/Create.cshtml]
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Account/ConfirmForgetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDb25maXJtRm9yZ2V0UGFzc3dvcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Account/ConfirmResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxDb25maXJtUmVzZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Account/ForgetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxGb3JnZXRQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Account/Registration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZWdpc3RyYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Admin/CreateRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Admin/DeleteRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRGVsZXRlUm9sZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Admin/EditRole.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cRWRpdFJvbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Department/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/Demo/Demo.PL/Views/Department/Delete.cshtml]
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Department/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/Demo/Demo.PL/Views/Department/Details.cshtml]
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Department/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/Demo/Demo.PL/Views/Department/Edit.cshtml]
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Department/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/Demo/Demo.PL/Views/Department/Index.cshtml]
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Department/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVwYXJ0bWVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/Demo/Demo.PL/Views/Employee/Create.cshtml]
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Employee/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/Demo/Demo.PL/Views/Employee/Delete.cshtml]
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Employee/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/Demo/Demo.PL/Views/Employee/Details.cshtml]
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Employee/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/Demo/Demo.PL/Views/Employee/Edit.cshtml]
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Employee/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/Demo/Demo.PL/Views/Employee/Index.cshtml]
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/Demo/Demo.PL/Views/Home/Index.cshtml]
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/Demo/Demo.PL/Views/Home/Privacy.cshtml]
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/Demo/Demo.PL/Views/Mail/CreateMail.cshtml]
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Mail/CreateMail.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpbFxDcmVhdGVNYWlsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/Demo/Demo.PL/Views/Shared/Error.cshtml]
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/Demo/Demo.PL/Views/Shared/_ValidationScriptsPartial.cshtml]
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/Demo/Demo.PL/Views/_ViewImports.cshtml]
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/Demo/Demo.PL/Views/_ViewStart.cshtml]
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/project/Demo/Demo.PL/Views/Shared/_Layout.cshtml]
+[F:/project .Net/GitHub Project/Demo/Demo.PL/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-717xabic2n
