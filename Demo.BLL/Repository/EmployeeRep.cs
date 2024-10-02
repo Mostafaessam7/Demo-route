@@ -21,18 +21,24 @@ namespace Demo.BLL.Repository
 
         public IEnumerable<Employee> Get()
         {
-            var data = Db.Employee.Include("Department").Include("District").Select(x => x);
-            return data;
+            //var data = Db.Employee.Include("Department").Include("District").Select(x => x);
+			var data = Db.Employee.Select(x => x);
+
+			return data;
         }
         public Employee GetById(int id)
         {
-            var data = Db.Employee.Include("Department").Where(x => x.Id == id).FirstOrDefault();
-            return data;
+            //var data = Db.Employee.Include("Department").Where(x => x.Id == id).FirstOrDefault();
+			var data = Db.Employee.Where(x => x.Id == id).FirstOrDefault();
+
+			return data;
         }
         public IEnumerable<Employee> SearchByName(string name)
         {
-            var data = Db.Employee.Include("Department").Where(x => x.Name == name).Select(x => x);
-            return data;
+            //var data = Db.Employee.Include("Department").Where(x => x.Name == name).Select(x => x);
+			var data = Db.Employee.Where(x => x.Name == name).Select(x => x);
+
+			return data;
         }
 
 

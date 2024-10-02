@@ -26,7 +26,7 @@ builder.Services.AddControllersWithViews()
     });
 
 builder.Services.AddDbContextPool<ProjectDbContext>(opts =>
-       opts.UseSqlServer(builder.Configuration.GetConnectionString("DemoConnection")));
+       opts.UseLazyLoadingProxies().UseSqlServer(builder.Configuration.GetConnectionString("DemoConnection")));
 
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options =>

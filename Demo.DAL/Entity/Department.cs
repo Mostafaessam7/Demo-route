@@ -19,7 +19,7 @@ namespace Demo.DAL.Entity
         [StringLength(50)]
         public string DepartmentCode { get; set; }
 
-        public ICollection<Employee> Employee { get; set; }
+        public virtual ICollection<Employee> Employee { get; set; }
 
     }
 }

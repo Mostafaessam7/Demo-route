@@ -24,7 +24,7 @@ namespace Demo.DAL.Entity
         [ForeignKey("CityId")]
         public virtual City City { get; set; }
 
-        public ICollection<Employee> Employee { get; set; }
+        public virtual ICollection<Employee> Employee { get; set; }
 
     }
 }

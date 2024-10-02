@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\Demo.DAL.csproj": {}
+    "H:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\Demo.DAL.csproj": {}
   },
   "projects": {
-    "F:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\Demo.DAL.csproj": {
+    "H:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\Demo.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\Demo.DAL.csproj",
+        "projectUniqueName": "H:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\Demo.DAL.csproj",
         "projectName": "Demo.DAL",
-        "projectPath": "F:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\Demo.DAL.csproj",
+        "projectPath": "H:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\Demo.DAL.csproj",
         "packagesPath": "C:\\Users\\ALMASA\\.nuget\\packages\\",
-        "outputPath": "F:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\obj\\",
+        "outputPath": "H:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ALMASA\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -45,6 +51,10 @@
               "version": "[6.0.15, )"
             },
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.15, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
               "target": "Package",
               "version": "[6.0.15, )"
             },
@@ -75,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

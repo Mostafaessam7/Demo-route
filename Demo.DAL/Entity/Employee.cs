@@ -29,7 +29,7 @@ namespace Demo.DAL.Entity
         public int DistrictId { get; set; }
 
         [ForeignKey("DepartmentId")]
-        public Department Department { get; set; }
+        public virtual Department Department { get; set; }
 
         [ForeignKey("DistrictId")]
         public virtual District District { get; set; }

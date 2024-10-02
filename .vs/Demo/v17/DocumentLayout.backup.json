@@ -1,0 +1,152 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\project .Net\\GitHub Project\\Demo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB2F9C0-716A-41D7-ABC8-4D83E98BB555}|Demo.PL\\Demo.PL.csproj|h:\\project .net\\github project\\demo\\demo.pl\\language\\employee\\sharedresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DB2F9C0-716A-41D7-ABC8-4D83E98BB555}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\language\\employee\\sharedresource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB2F9C0-716A-41D7-ABC8-4D83E98BB555}|Demo.PL\\Demo.PL.csproj|h:\\project .net\\github project\\demo\\demo.pl\\language\\employee\\sharedresource.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5DB2F9C0-716A-41D7-ABC8-4D83E98BB555}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\language\\employee\\sharedresource.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB2F9C0-716A-41D7-ABC8-4D83E98BB555}|Demo.PL\\Demo.PL.csproj|h:\\project .net\\github project\\demo\\demo.pl\\language\\employee\\sharedresource.ar-eg.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5DB2F9C0-716A-41D7-ABC8-4D83E98BB555}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\language\\employee\\sharedresource.ar-eg.resx||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB2F9C0-716A-41D7-ABC8-4D83E98BB555}|Demo.PL\\Demo.PL.csproj|h:\\project .net\\github project\\demo\\demo.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DB2F9C0-716A-41D7-ABC8-4D83E98BB555}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DB2F9C0-716A-41D7-ABC8-4D83E98BB555}|Demo.PL\\Demo.PL.csproj|h:\\project .net\\github project\\demo\\demo.pl\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5DB2F9C0-716A-41D7-ABC8-4D83E98BB555}|Demo.PL\\Demo.PL.csproj|solutionrelative:demo.pl\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B8EE9A-82BE-43C9-A990-8A894EBC5AA0}|Demo.DAL\\Demo.DAL.csproj|h:\\project .net\\github project\\demo\\demo.dal\\entity\\district.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B8EE9A-82BE-43C9-A990-8A894EBC5AA0}|Demo.DAL\\Demo.DAL.csproj|solutionrelative:demo.dal\\entity\\district.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B8EE9A-82BE-43C9-A990-8A894EBC5AA0}|Demo.DAL\\Demo.DAL.csproj|h:\\project .net\\github project\\demo\\demo.dal\\entity\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B8EE9A-82BE-43C9-A990-8A894EBC5AA0}|Demo.DAL\\Demo.DAL.csproj|solutionrelative:demo.dal\\entity\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{71B8EE9A-82BE-43C9-A990-8A894EBC5AA0}|Demo.DAL\\Demo.DAL.csproj|h:\\project .net\\github project\\demo\\demo.dal\\entity\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{71B8EE9A-82BE-43C9-A990-8A894EBC5AA0}|Demo.DAL\\Demo.DAL.csproj|solutionrelative:demo.dal\\entity\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SharedResource.cs",
+              "DocumentMoniker": "H:\\project .Net\\GitHub Project\\Demo\\Demo.PL\\Language\\Employee\\SharedResource.cs",
+              "RelativeDocumentMoniker": "Demo.PL\\Language\\Employee\\SharedResource.cs",
+              "ToolTip": "H:\\project .Net\\GitHub Project\\Demo\\Demo.PL\\Language\\Employee\\SharedResource.cs",
+              "RelativeToolTip": "Demo.PL\\Language\\Employee\\SharedResource.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T00:37:46.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "H:\\project .Net\\GitHub Project\\Demo\\Demo.PL\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Demo.PL\\Views\\Home\\Index.cshtml",
+              "ToolTip": "H:\\project .Net\\GitHub Project\\Demo\\Demo.PL\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Demo.PL\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAC8BAAAAAAAAAAAAAAwAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-24T15:26:18.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\project .Net\\GitHub Project\\Demo\\Demo.PL\\Program.cs",
+              "RelativeDocumentMoniker": "Demo.PL\\Program.cs",
+              "ToolTip": "H:\\project .Net\\GitHub Project\\Demo\\Demo.PL\\Program.cs",
+              "RelativeToolTip": "Demo.PL\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:36:29.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SharedResource.ar-EG.resx",
+              "DocumentMoniker": "H:\\project .Net\\GitHub Project\\Demo\\Demo.PL\\Language\\Employee\\SharedResource.ar-EG.resx",
+              "RelativeDocumentMoniker": "Demo.PL\\Language\\Employee\\SharedResource.ar-EG.resx",
+              "ToolTip": "H:\\project .Net\\GitHub Project\\Demo\\Demo.PL\\Language\\Employee\\SharedResource.ar-EG.resx",
+              "RelativeToolTip": "Demo.PL\\Language\\Employee\\SharedResource.ar-EG.resx",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAvwJUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-09-10T00:37:18.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SharedResource.resx",
+              "DocumentMoniker": "H:\\project .Net\\GitHub Project\\Demo\\Demo.PL\\Language\\Employee\\SharedResource.resx",
+              "RelativeDocumentMoniker": "Demo.PL\\Language\\Employee\\SharedResource.resx",
+              "ToolTip": "H:\\project .Net\\GitHub Project\\Demo\\Demo.PL\\Language\\Employee\\SharedResource.resx",
+              "RelativeToolTip": "Demo.PL\\Language\\Employee\\SharedResource.resx",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-09-30T19:56:37.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "District.cs",
+              "DocumentMoniker": "H:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\Entity\\District.cs",
+              "RelativeDocumentMoniker": "Demo.DAL\\Entity\\District.cs",
+              "ToolTip": "H:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\Entity\\District.cs",
+              "RelativeToolTip": "Demo.DAL\\Entity\\District.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:36:29.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "City.cs",
+              "DocumentMoniker": "H:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\Entity\\City.cs",
+              "RelativeDocumentMoniker": "Demo.DAL\\Entity\\City.cs",
+              "ToolTip": "H:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\Entity\\City.cs",
+              "RelativeToolTip": "Demo.DAL\\Entity\\City.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:36:29.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Department.cs",
+              "DocumentMoniker": "H:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\Entity\\Department.cs",
+              "RelativeDocumentMoniker": "Demo.DAL\\Entity\\Department.cs",
+              "ToolTip": "H:\\project .Net\\GitHub Project\\Demo\\Demo.DAL\\Entity\\Department.cs",
+              "RelativeToolTip": "Demo.DAL\\Entity\\Department.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T14:36:29.217Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

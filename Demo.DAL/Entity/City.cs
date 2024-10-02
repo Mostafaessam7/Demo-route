@@ -24,7 +24,7 @@ namespace Demo.DAL.Entity
         [ForeignKey("CountryId")]
         public virtual Country Country { get; set; }
 
-        public ICollection<District> District { get; set; }
+        public virtual ICollection<District> District { get; set; }
 
 
     }
