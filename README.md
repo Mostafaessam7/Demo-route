@@ -12,19 +12,17 @@
 ## Demo.BLL (Business Logic Layer):
 ### Contains core business logic and operations.
 ### Folders like Helper, Interface, Mapper, Models, and Repository indicate a clean separation of responsibilities within the business layer.
-### Example files: Class1.cs for business operations.
+
 
 ## Demo.DAL (Data Access Layer):
 ### Manages all database-related operations.
 ### Contains Database, Entity, and Migrations for database schema creation and updates.
 ### Integrates Entity Framework Core for ORM functionality and database interactions.
-### Example files: Class1.cs and entity models for data persistence.
 
 ## Demo.PL (Presentation Layer):
 ### The user interface of the application, which handles web requests and returns views to the user.
 ### Includes Controllers, Views, and the wwwroot folder for static assets.
 ### Implements localization through resources (SharedResource.resx) for multi-language support.
-### Example files: Program.cs, appsettings.json for configuring the web application and services.
 
 # Technologies Used:
 ### .NET 6.0: The latest version of the .NET framework, providing performance improvements and modern development features.
