@@ -1,5 +1,5 @@
 # Demo Project
-## This project is a multi-layered application built using ASP.NET Core MVC and Entity Framework Core. It follows the N-tier architecture (Business Logic Layer, Data Access Layer, and Presentation Layer), making the system modular and easy to maintain. The application leverages Microsoft Identity for authentication and Entity Framework Core to interact with a SQL Server database.
+### This project is a multi-layered application built using ASP.NET Core MVC and Entity Framework Core. It follows the N-tier architecture (Business Logic Layer, Data Access Layer, and Presentation Layer), making the system modular and easy to maintain. The application leverages Microsoft Identity for authentication and Entity Framework Core to interact with a SQL Server database.
 
 # Key Features:
 #### User Authentication: Integrated with ASP.NET Core Identity for secure login and role-based authorization.
